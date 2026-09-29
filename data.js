@@ -19,7 +19,7 @@ window.PORTFOLIO = {
   hero: {
     lines: ["Circuits, code", "& *AI agents*", "that do real work."],
     intro:
-      "Third-year Electrical Engineering student at NUST SEECS and Co-Founder at Verafo. I build AI agents and automation systems for businesses, prediction tools for e-commerce, and verify the digital chip designs that power them.",
+      "Third-year Electrical Engineering student at NUST SEECS and Co-Founder at Verafo. I build AI agents and automation systems for businesses, prediction tools for e-commerce, and verify digital chip designs.",
   },
 
   about: {
@@ -308,7 +308,7 @@ window.PORTFOLIO = {
     {
       title: "AI Agents & Automation",
       text: "Custom AI agents and automation systems for any business process: customer support, lead handling, sales follow-ups, data entry, reporting and bookings, connected to the tools a team already uses.",
-      tags: ["n8n", "LLM APIs (Gemini, OpenAI)", "AI tool-calling", "Webhooks & REST APIs", "Google Workspace", "Chat & WhatsApp integrations", "Prompt engineering"],
+      tags: ["n8n", "LLM APIs (Gemini, OpenAI)", "AI tool-calling", "Webhooks & REST APIs", "Supabase", "Google Workspace", "Chat & WhatsApp integrations", "Prompt engineering"],
     },
     {
       title: "Shopify App Development",
