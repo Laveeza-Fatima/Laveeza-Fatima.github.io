@@ -176,6 +176,119 @@ window.PORTFOLIO = {
       links: [],
     },
     {
+      slug: "echo",
+      title: "Echo",
+      category: "AI & Software",
+      year: "2026",
+      role: "Design & build",
+      client: "Open-source project",
+      stack: ["n8n", "Gemini", "RAG", "Supabase pgvector", "WhatsApp Cloud API"],
+      image: "media/echo-cover.jpg",
+      summary:
+        "A support agent that learns from your team. It answers customers from the business's own documents, asks the owner on WhatsApp when it isn't sure, and turns every reply into permanent knowledge.",
+      overview:
+        "Most support bots make up answers and never get smarter. Echo does neither. It answers only from the business's own documents. When it isn't confident, it logs the question and asks the owner on WhatsApp. The owner simply swipes to reply, and that answer becomes knowledge, so the next customer gets it instantly. Every unanswered question makes Echo better.",
+      highlights: [
+        { value: "0", label: "Made-up answers: it asks instead of guessing" },
+        { value: "1 swipe", label: "For the owner to teach it something new" },
+        { value: "RAG", label: "Answers from the business's own documents" },
+        { value: "24/7", label: "Always answering customers" },
+      ],
+      flow: [
+        "Customer asks a question",
+        "Echo searches the business's documents",
+        "Confident → answers with the source",
+        "Not sure → asks the owner on WhatsApp",
+        "Owner's reply becomes new knowledge",
+      ],
+      outcomes: [
+        "Interactive live demo: chat as a customer, answer as the owner, watch Echo learn",
+        "A live list of questions the business hasn't documented yet",
+        "Works for online stores, clinics, agencies and SaaS support",
+        "Open source: workflows, database setup and docs on GitHub",
+      ],
+      gallery: [
+        { type: "image", src: "media/echo-demo.jpg", caption: "A question Echo couldn't answer goes to the owner on WhatsApp; her reply is learned and the next customer gets it instantly" },
+      ],
+      links: [
+        { label: "Try the live demo", url: "https://laveeza-fatima.github.io/echo-support-agent/", primary: true },
+        { label: "View on GitHub", url: "https://github.com/Laveeza-Fatima/echo-support-agent" },
+      ],
+    },
+    {
+      slug: "ledger",
+      title: "Ledger",
+      category: "AI & Software",
+      year: "2026",
+      role: "Design & build",
+      client: "Open-source project",
+      stack: ["n8n", "Gemini", "Document AI", "Supabase", "WhatsApp Cloud API", "Node.js tests"],
+      image: "media/ledger-cover.jpg",
+      summary:
+        "An AI invoice auditor that catches the invoices you shouldn't pay: duplicates, overcharges, wrong totals and changed bank details, before any money leaves the account.",
+      overview:
+        "Supplier invoices arrive by email. Ledger reads each PDF with AI, checks it against supplier records, contract prices and payment history, and holds anything suspicious, then alerts the owner on WhatsApp. AI does the reading; clear, tested rules make the pay-or-hold decision, so every verdict is explainable and never made up.",
+      highlights: [
+        { value: "PKR 101K", label: "Protected in the demo inbox" },
+        { value: "5", label: "Checks on every invoice" },
+        { value: "11", label: "Automated tests, all passing" },
+        { value: "0", label: "Payments to a changed bank account" },
+      ],
+      flow: [
+        "Invoice PDF arrives by email",
+        "AI reads the invoice",
+        "Checked against contracts & history",
+        "Suspicious → put on hold",
+        "Owner alerted on WhatsApp",
+      ],
+      outcomes: [
+        "Catches bank-detail fraud, duplicate invoices, overcharges and wrong totals",
+        "Shows exactly how much money each hold protected",
+        "One tested rules engine shared by the demo, the workflow and the tests",
+        "Open source: workflow, database setup, tests and docs on GitHub",
+      ],
+      gallery: [
+        { type: "image", src: "media/ledger-demo.jpg", caption: "An invoice asking to be paid into a new bank account: held, PKR 49,560 protected" },
+        { type: "image", src: "media/ledger-price.jpg", caption: "A supplier charging above the agreed contract price: held for the exact overcharge" },
+      ],
+      links: [
+        { label: "Try the live demo", url: "https://laveeza-fatima.github.io/ledger-invoice-auditor/", primary: true },
+        { label: "View on GitHub", url: "https://github.com/Laveeza-Fatima/ledger-invoice-auditor" },
+      ],
+    },
+    {
+      slug: "nova",
+      title: "Nova AI Receptionist",
+      category: "AI & Software",
+      year: "2026",
+      role: "Design & build",
+      client: "Open-source template",
+      stack: ["n8n", "AI Agent", "Gemini", "Google Sheets"],
+      image: "media/nova-demo.jpg",
+      summary:
+        "An AI receptionist that answers customer questions from a Google Sheet, qualifies people who want to book, and saves every lead for the team.",
+      overview:
+        "Nova is an open, ready-to-import n8n template for small service businesses. The owner keeps answers in a simple Google Sheet; Nova never invents prices or hours, collects contact details one question at a time, and logs every lead automatically.",
+      highlights: [
+        { value: "24/7", label: "Answers and captures leads" },
+        { value: "0", label: "Invented prices or hours" },
+        { value: "10 min", label: "To set up from the template" },
+        { value: "MIT", label: "Open-source licence" },
+      ],
+      outcomes: [
+        "Answers only from the business's own knowledge sheet",
+        "Collects name, contact and need, then saves the lead",
+        "Live demo page plus importable n8n workflow",
+      ],
+      gallery: [
+        { type: "image", src: "media/nova-demo.jpg", caption: "Nova answers a price question, then books a facial and saves the lead" },
+      ],
+      links: [
+        { label: "Try the live demo", url: "https://laveeza-fatima.github.io/ai-receptionist-agent/", primary: true },
+        { label: "View on GitHub", url: "https://github.com/Laveeza-Fatima/ai-receptionist-agent" },
+      ],
+    },
+    {
       slug: "voice-home-automation",
       title: "Voice Home Automation",
       category: "Hardware",
