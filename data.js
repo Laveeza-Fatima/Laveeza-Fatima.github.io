@@ -13,7 +13,7 @@ window.PORTFOLIO = {
   status: "Open to internships",
   email: "laveezafatima73@gmail.com",
   phone: "+92 326 7747746",
-  resume: "",                      // TODO: link to your CV PDF (button hides while empty)
+  resume: "Laveeza_Fatima_CV.pdf",  // your CV (replace this file to update it; set to "" to hide the buttons)
   portrait: "media/portrait.jpg",
 
   hero: {

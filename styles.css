@@ -503,7 +503,9 @@ body.menu-open .menu-links a:nth-child(4) { transition-delay: 0.4s; }
 .cta:hover::before { transform: none; }
 .cta:hover { color: var(--bg); }
 .cta-inner { position: relative; font-size: 17px; will-change: transform; }
-.contact-foot { padding: 40px 0; }
+.contact-foot { padding: 40px 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.cv-pill { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.cv-pill:hover { background: var(--fg); border-color: var(--fg); color: var(--bg); }
 .footer {
   position: relative; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
   padding: 28px 0 32px; color: var(--muted); border-top: 1px solid var(--line);

@@ -87,12 +87,11 @@ portrait: "media/portrait.jpg",                     // your photo in the About s
 
 `timeZone` and `status` are also in the file but are **not shown** on the site any more. You can ignore them.
 
-**Add a "Download résumé" button:** upload your CV PDF to Google Drive, set sharing to
-*Anyone with the link*, and paste the link:
-```js
-resume: "https://drive.google.com/file/d/XXXXXXXX/view",
-```
-(Or put `cv.pdf` in the folder and write `resume: "cv.pdf",`.) While `resume` is empty `""`, the button stays hidden.
+**"Download CV" buttons** (About section + Contact section): they open `Laveeza_Fatima_CV.pdf` in this folder.
+- **To update your CV:** replace `Laveeza_Fatima_CV.pdf` with the new PDF (same file name), then publish.
+  (Your CV source lives in `Documents\Laveeza-CV`: edit `cv.html` and run `python build_pdf.py`, or edit the `.tex` in Overleaf.)
+- To use a different file name or a Google Drive link instead, change `resume: "…",` in `data.js`.
+- To hide both buttons, set `resume: "",`.
 
 **Change your photo:** put a new photo in `media/` (square works best, e.g. 900×900 px, JPG under ~300 KB),
 then change `portrait: "media/your-new-photo.jpg",`.
